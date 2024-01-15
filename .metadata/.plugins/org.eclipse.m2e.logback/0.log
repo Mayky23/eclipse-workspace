@@ -2080,3 +2080,24 @@ org.eclipse.core.runtime.CoreException: Launch configuration CitasMedicasApplica
 2024-01-15 19:31:23,532 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-01-15 19:31:23,534 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-01-15 19:31:23,537 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-01-15 20:01:31,969 [Worker-40: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bank:MVC_AOM_MR:0.0.1-SNAPSHOT @ C:\Users\AlumnoT\Desktop\MVC_AOM_MR\pom.xml.
+2024-01-15 20:01:32,394 [Worker-40: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MVC_AOM_MR/src/main/java
+2024-01-15 20:01:32,394 [Worker-40: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MVC_AOM_MR/src/main/resources
+2024-01-15 20:01:32,394 [Worker-40: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MVC_AOM_MR/src/main/resources
+2024-01-15 20:01:32,394 [Worker-40: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MVC_AOM_MR/src/test/java
+2024-01-15 20:01:32,394 [Worker-40: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MVC_AOM_MR/src/test/resources
+2024-01-15 20:01:32,513 [Worker-40: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2024-01-15 20:01:32,869 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-15 20:01:32,878 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-15 20:01:32,881 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-01-15 20:05:14,953 [Worker-44: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-01-15 20:05:15,301 [Worker-44: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bank:MVC_AOM_MR:0.0.1-SNAPSHOT @ C:\Users\AlumnoT\Desktop\MVC_AOM_MR\pom.xml.
+2024-01-15 20:05:15,828 [Worker-44: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MVC_AOM_MR/src/main/java
+2024-01-15 20:05:15,828 [Worker-44: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MVC_AOM_MR/src/main/resources
+2024-01-15 20:05:15,832 [Worker-44: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MVC_AOM_MR/src/main/resources
+2024-01-15 20:05:15,833 [Worker-44: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MVC_AOM_MR/src/test/java
+2024-01-15 20:05:15,833 [Worker-44: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MVC_AOM_MR/src/test/resources
+2024-01-15 20:05:16,115 [Worker-44: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-01-15 20:05:16,333 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-15 20:05:16,344 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-15 20:05:16,348 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\AlumnoT\Desktop\MVC_AOM_MR\src\test\resources
