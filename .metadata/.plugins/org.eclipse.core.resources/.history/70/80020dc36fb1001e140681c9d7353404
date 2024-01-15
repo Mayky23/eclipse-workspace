@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='ISO-8859-1'  ?>
+<index version="1.0">
+        <indexitem text="Manual"    target="manual"/>
+        <indexitem text="Instalar"    target="instalar"/>
+</index>

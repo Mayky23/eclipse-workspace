@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addComponent
+		id="Calendario2.ComponenteCalendario_1699036304360"
+		name="ComponenteCalendario"
+		description="Custom component: Calendario2.ComponenteCalendario"
+		visible="true"
+		class="Calendario2.ComponenteCalendario"
+		category="org.eclipse.wb.swing.components"/>
+</commands>

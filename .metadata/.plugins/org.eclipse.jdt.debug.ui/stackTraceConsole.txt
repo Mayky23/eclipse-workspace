@@ -1,0 +1,5 @@
+<pieDataset maxCount="7" minPercentage="0.0">
+    <keyExpression><![CDATA[$F{Continent}]]></keyExpression>
+    <valueExpression><![CDATA[$F{Population}]]></valueExpression>
+    <labelExpression><![CDATA[$F{Continent}]]></labelExpression>
+</pieDataset>

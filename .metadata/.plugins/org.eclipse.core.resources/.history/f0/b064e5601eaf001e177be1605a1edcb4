@@ -1,0 +1,63 @@
+package com.example.demo.controlador;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class PersonaControlador {
+
+	@GetMapping("/")
+	public String holaMundo() {
+		return  "Hello, World";
+	}
+	
+	// Sumar
+	@GetMapping("/suma/{num1}/{num2}")
+	public int suma(@PathVariable int num1, @PathVariable int num2) {
+		return  num1 + num2;
+	}
+	
+	// Multiplicar
+	@GetMapping("/multiplicar/{num1}/{num2}")
+	public int multiplicar(@PathVariable int num1, @PathVariable int num2) {
+		return  num1 * num2;
+	}
+	
+	// Mayor de edad 
+	@GetMapping("/edad/{num1}")
+    public String checkAge(@PathVariable int num1) {
+        if (num1 >= 18) {
+            return "ERES MAYOR DE EDAD";
+        } else {
+            return "ERES MENOR DE EDAD";
+        }
+    }
+	 
+	// Saludar a un usuario 
+	@GetMapping("/{nombre}")
+    public String saludar(@PathVariable String nombre) {
+        return "HOLA: " + nombre;
+    }
+	
+	// De uno a n 
+	@GetMapping("/numbers/{n}")
+    public List<Integer> listaNum(@PathVariable int n) {
+        List<Integer> numbersList = new ArrayList<>();
+
+        for (int i = 1; i <= n; i++) {
+            numbersList.add(i);
+        }
+
+        return numbersList;
+    }
+	
+	@PostMapping("/suma")
+    public int suma(@RequestBody int num1, @RequestBody int num2) {
+        return num1 + num2;
+    }
+}

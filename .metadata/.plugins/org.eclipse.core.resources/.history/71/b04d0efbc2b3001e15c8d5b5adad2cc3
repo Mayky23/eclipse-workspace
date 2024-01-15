@@ -1,0 +1,22 @@
+package MongoDBapi.MongoDBapi;
+
+import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoDatabase;
+
+public class App {
+    public static void main(String[] args) {
+    	
+    //  System.out.println( "Hello World!" );
+    	
+        // Configura la conexión a MongoDB (asegúrate de reemplazar "tu_nombre_de_base_de_datos" con el nombre de tu base de datos)
+       MongoClients mongo = new  MongoClients("localhost" , 27017); 
+       
+       // Acceder a base de datos 
+       MongoDatabase database = mongo.getDatabase("animales");
+       
+       // crear colección 
+       database.createCollection("mamiferos");
+       
+    }
+}

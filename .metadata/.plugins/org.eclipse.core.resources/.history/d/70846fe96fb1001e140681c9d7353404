@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<map version="1.0">
+   <mapID target="manual" url="html/1-manual.html" />
+   <mapID target="instalar" url="html/2-instalar.html" />
+</map>

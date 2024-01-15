@@ -1,0 +1,32 @@
+package MongoDBapi.MongoDBapi;
+
+
+import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoCollection;
+
+import javax.swing.text.Document;
+
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoDatabase;
+
+public class App {
+    public static void main(String[] args) {
+    	
+    //  System.out.println( "Hello World!" );
+    	
+        // Configura la conexión a MongoDB 
+       MongoClient mongo = new  MongoClient("localhost" , 27017); 
+       
+       // Acceder a base de datos 
+       MongoDatabase database = mongo.getDatabase("animales");
+       
+       for(String name: database.listCollectionNames()) {
+    	   System.out.println("name");
+       }
+       // crear colección 
+       // database.createCollection("mamiferos");
+       
+       MongoCollection<Document> collection = database.getCollection("animales");
+       
+    }
+}

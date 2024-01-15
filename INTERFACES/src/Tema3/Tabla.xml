@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+
+  <departamento>
+    <nombre>Marketing</nombre>
+    <descripcion>Departamento encargado de estrategias de marketing y publicidad.</descripcion>
+
+    <empleado>
+      <nombre>María Sanchez</nombre>
+      <dni>59283746B</dni>
+    </empleado>
+
+    <empleado>
+      <nombre>Janet Plaza</nombre>
+      <dni>69384721W</dni>
+    </empleado>
+
+  </departamento>
+
+  <departamento>
+    <nombre>Finanzas</nombre>
+    <descripcion>Encargados de la gestión financiera y contable de la empresa.</descripcion>
+
+    <empleado>
+      <nombre>Michael Jordan</nombre>
+      <dni>87263591S</dni>
+    </empleado>
+
+    <empleado>
+      <nombre>Emily Ortega</nombre>
+      <dni>21938465D</dni>
+    </empleado>
+
+  </departamento>
+
+  <departamento>
+    <nombre>Inventario</nombre>
+    <descripcion>Responsables del control y gestión de inventarios y almacén.</descripcion>
+
+    <empleado>
+      <nombre>Pepe Romero</nombre>
+      <dni>92638475F</dni>
+    </empleado>
+
+    <empleado>
+      <nombre>Alberto Martinez</nombre>
+      <dni>37482936J</dni>
+    </empleado>
+
+  </departamento>
+
+</empresa>

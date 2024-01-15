@@ -1,0 +1,121 @@
+package JavaHelp;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.Graphics;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
+import javax.swing.JComboBox;
+import javax.print.DocFlavor.URL;
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JSpinner;
+import javax.swing.SpinnerNumberModel;
+import java.awt.event.ItemListener;
+import java.io.File;
+import java.awt.event.ItemEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.event.ChangeEvent;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.help.*;
+import java.net.*;
+
+public class VentanaPrincipal extends JFrame {
+
+    private static final long serialVersionUID = 1L;
+    private JPanel contentPane;
+    private JButton  btnAyuda;
+
+    public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                try {
+                    VentanaPrincipal frame = new VentanaPrincipal();
+                    frame.setVisible(true);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
+
+    public VentanaPrincipal() {
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setBounds(100, 100, 450, 332);
+
+        contentPane = new JPanel();
+        contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+        setContentPane(contentPane);
+
+        JMenuBar menuBar = new JMenuBar();
+        JMenu ayudaMenu = new JMenu("Ayuda");
+        JMenuItem ayudaItem = new JMenuItem("Mostrar Ayuda");
+        ayudaItem.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                mostrarAyuda();
+            }
+        });
+        ayudaMenu.add(ayudaItem);
+        menuBar.add(ayudaMenu);
+        setJMenuBar(menuBar);
+
+        JButton mostrarVentanaBtn = new JButton("Mostrar Ventana Secundaria");
+        mostrarVentanaBtn.setBounds(5, -6, 424, 172);
+        mostrarVentanaBtn.setFont(new Font("Arial Black", Font.BOLD, 20));
+        mostrarVentanaBtn.setBackground(new Color(0, 128, 255));
+        mostrarVentanaBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                mostrarNuevaVentanaSecundaria();
+            }
+        });
+        contentPane.setLayout(null);
+
+        contentPane.add(mostrarVentanaBtn);
+        
+        JButton btnAyuda = new JButton("AYUDA");
+        btnAyuda.setBounds(5, 177, 424, 83);
+        btnAyuda.setBackground(Color.RED);
+        btnAyuda.setFont(new Font("Arial Black", Font.BOLD, 20));
+        btnAyuda.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        		showHelp();
+        	}
+        });
+        contentPane.add(btnAyuda);
+        
+    }
+    
+    private void showHelp() {
+        // Cargar el archivo de configuración de JavaHelp
+        try {
+            File fichero = new File("C:\\Users\\AlumnoT\\eclipse-workspace\\JavaHelp\\help\\help_set.hs");
+            java.net.URL hsURL = fichero.toURI().toURL();
+            HelpSet helpSet = new HelpSet(getClass().getClassLoader(), hsURL);
+            HelpBroker helpBroker = helpSet.createHelpBroker();
+
+            // Mostrar la ayuda
+            helpBroker.enableHelpOnButton(btnAyuda, "aplicacion", helpSet);
+            helpBroker.enableHelpKey(contentPane, "main", helpSet);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }}
+
+ 
+
+    private void mostrarNuevaVentanaSecundaria() {
+        // Crear y mostrar una nueva instancia de VentanaSecundaria como ventana emergente
+        JOptionPane.showMessageDialog(this, new VentanaSecundaria(), "Ventana Secundaria", JOptionPane.PLAIN_MESSAGE);
+    }
+}

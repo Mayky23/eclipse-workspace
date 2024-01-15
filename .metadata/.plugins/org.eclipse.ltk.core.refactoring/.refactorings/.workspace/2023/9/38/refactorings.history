@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;INTERFACES_MEDAC&apos;" deleteContents="false" description="Delete resource &apos;INTERFACES_MEDAC&apos;" element1="/INTERFACES_MEDAC" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1695235838880"/>
+</session>

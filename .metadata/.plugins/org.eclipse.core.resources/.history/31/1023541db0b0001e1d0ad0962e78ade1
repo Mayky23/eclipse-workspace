@@ -1,0 +1,31 @@
+package JavaHelp;
+
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
+
+public class VentanaSecundaria extends JDialog {
+
+    private static final long serialVersionUID = 1L;
+    private JPanel contentPane;
+
+    public VentanaSecundaria(JFrame parent) {
+        super(parent, "Ventana Secundaria", true);  
+        setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE); 
+
+        setBounds(100, 100, 450, 300);
+        contentPane = new JPanel();
+        contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+        setContentPane(contentPane);
+        contentPane.setLayout(null);
+
+        JLabel etiquetaDescripcion = new JLabel("Descripción: ");
+        etiquetaDescripcion.setBounds(10, 20, 80, 20);
+        contentPane.add(etiquetaDescripcion);
+
+        JTextField txtBienvenido = new JTextField();
+        txtBienvenido.setText("Bienvenido a la ventana de ayuda");
+        txtBienvenido.setBounds(100, 20, 302, 20);
+        contentPane.add(txtBienvenido);
+    }
+}
