@@ -3,4 +3,9 @@
 	<list key="RepositorySelectionPage.UsedUris">
 		<item value="https://github.com/Mayky23/Programing2.git"/>
 	</list>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
 </section>

@@ -76,6 +76,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\AlumnoT\Desktop\MVC_AOM_MR"/>
+			<item value="C:\Users\AlumnoT\eclipse-workspace"/>
 			<item value="C:\Users\AlumnoT\Desktop\demo"/>
 			<item value="C:\Users\AlumnoT\eclipse-workspace\Servicios_Procesos"/>
 			<item value="C:\Users\AlumnoT\Desktop\CitasMedicas"/>
