@@ -2189,3 +2189,8 @@ org.eclipse.core.runtime.CoreException: Launch configuration CitasMedicasApplica
 2024-01-17 17:13:25,356 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-01-17 17:13:25,363 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\AlumnoT\Desktop\MVC_AOM_MR\src\test\resources
 2024-01-17 17:24:54,670 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-17 23:56:23,527 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-17 23:56:26,929 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MongoDBapi:MongoDBapi:0.0.1-SNAPSHOT @ M:\eclipse-workspace\MongoDBapi\pom.xml.
+2024-01-17 23:56:27,113 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory M:\eclipse-workspace\MongoDBapi\src\main\resources
+2024-01-17 23:56:27,117 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory M:\eclipse-workspace\MongoDBapi\src\test\resources
+2024-01-17 23:56:27,829 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MongoDBapi:MongoDBapi:0.0.1-SNAPSHOT @ M:\eclipse-workspace\MongoDBapi\pom.xml.
