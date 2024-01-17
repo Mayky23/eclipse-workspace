@@ -7,5 +7,8 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="videos"/>
+	<classpathentry kind="lib" path="C:/Users/AlumnoT/Downloads/commons-net-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AlumnoT/Downloads/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AlumnoT/Downloads/javax.mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
