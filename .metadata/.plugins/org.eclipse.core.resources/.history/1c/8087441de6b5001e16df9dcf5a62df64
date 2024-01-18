@@ -1,0 +1,16 @@
+package OrganizadorTareas;
+
+import javax.swing.JPanel;
+
+public class OrganizadorTareasPanel extends JPanel {
+
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * Create the panel.
+	 */
+	public OrganizadorTareasPanel() {
+
+	}
+
+}

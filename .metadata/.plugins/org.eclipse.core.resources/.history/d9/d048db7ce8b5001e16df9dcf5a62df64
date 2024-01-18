@@ -1,0 +1,247 @@
+package OrganizadorTareas;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.Transferable;
+import java.awt.datatransfer.UnsupportedFlavorException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.io.IOException;
+
+import javax.swing.border.TitledBorder;
+
+public class OrganizadorTareasApp extends JFrame {
+
+    private static final long serialVersionUID = 1L;
+    private JComboBox<String> categoriasComboBox;
+    private DefaultListModel<String>[] modelosDeListas;
+    private JList<String>[] listas;
+    private JTextField nuevaTareaTextField;
+
+    public OrganizadorTareasApp() {
+        setTitle("Organizador de Tareas");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(600, 400);
+
+        inicializarComponentes();
+    }
+
+    private void inicializarComponentes() {
+        // Panel de selección de categoría
+        JPanel panelSeleccionCategoria = new JPanel();
+        JLabel etiquetaCategoria = new JLabel("Seleccione una categoría: ");
+        String[] opcionesCategorias = {"Proyecto Personal", "Trabajo", "Estudio"};
+        categoriasComboBox = new JComboBox<>(opcionesCategorias);
+        JButton botonSeleccionar = new JButton("Seleccionar");
+        botonSeleccionar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                cambiarCategoria();
+            }
+        });
+        panelSeleccionCategoria.add(etiquetaCategoria);
+        panelSeleccionCategoria.add(categoriasComboBox);
+        panelSeleccionCategoria.add(botonSeleccionar);
+
+        // Panel de listas (Tareas, Realizando, Realizadas)
+        JPanel panelListas = new JPanel(new GridLayout(1, 3));
+        modelosDeListas = new DefaultListModel[3];
+        listas = new JList[3];
+
+        for (int i = 0; i < 3; i++) {
+            modelosDeListas[i] = new DefaultListModel<>();
+            listas[i] = new JList<>(modelosDeListas[i]);
+            listas[i].setBorder(BorderFactory.createTitledBorder(obtenerTituloLista(i)));
+            listas[i].setTransferHandler(new ListaTransferHandler(i));
+            listas[i].setDragEnabled(true);
+            listas[i].addMouseListener(new MouseAdapter() {
+                @Override
+                public void mousePressed(MouseEvent e) {
+                    JList lista = (JList) e.getSource();
+                    int index = lista.locationToIndex(e.getPoint());
+                    lista.setSelectedIndex(index);
+                    lista.requestFocus();
+                }
+            });
+
+            JScrollPane scrollPane = new JScrollPane(listas[i]);
+            panelListas.add(scrollPane);
+        }
+
+        // Panel de creación de tarea
+        JPanel panelCrearTarea = new JPanel();
+        nuevaTareaTextField = new JTextField(20);
+        JButton botonCrearTarea = new JButton("Crear Tarea");
+        botonCrearTarea.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                agregarTarea();
+            }
+        });
+        panelCrearTarea.add(nuevaTareaTextField);
+        panelCrearTarea.add(botonCrearTarea);
+
+        // Agregar paneles al panel principal
+        add(panelSeleccionCategoria, BorderLayout.NORTH);
+        add(panelListas, BorderLayout.CENTER);
+        add(panelCrearTarea, BorderLayout.SOUTH);
+    }
+
+    private void cambiarCategoria() {
+        String categoriaSeleccionada = (String) categoriasComboBox.getSelectedItem();
+        System.out.println("Cambiando a la categoría: " + categoriaSeleccionada);
+        cargarTareasDePrueba();
+    }
+
+    private void cargarTareasDePrueba() {
+        String[] tareas = {"Tarea 1", "Tarea 2", "Tarea 3"};
+
+        for (int i = 0; i < tareas.length; i++) {
+            modelosDeListas[i].clear();
+            for (String tarea : tareas) {
+                modelosDeListas[i].addElement(tarea);
+            }
+        }
+    }
+
+    private void agregarTarea() {
+        String nuevaTarea = nuevaTareaTextField.getText();
+        if (!nuevaTarea.isEmpty()) {
+            modelosDeListas[0].addElement(nuevaTarea);
+            nuevaTareaTextField.setText("");
+        }
+    }
+
+    private String obtenerTituloLista(int indice) {
+        switch (indice) {
+            case 0:
+                return "Tareas";
+            case 1:
+                return "Realizando";
+            case 2:
+                return "Realizadas";
+            default:
+                return "";
+        }
+    }
+
+    private class ListaTransferHandler extends TransferHandler {
+        /**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
+		private final int origenIndex;
+
+        public ListaTransferHandler(int origenIndex) {
+            this.origenIndex = origenIndex;
+        }
+
+        @Override
+        public int getSourceActions(JComponent comp) {
+            return TransferHandler.COPY_OR_MOVE;
+        }
+
+        @Override
+        protected Transferable createTransferable(JComponent c) {
+            @SuppressWarnings("unchecked")
+			JList<String> lista = (JList<String>) c;
+            int index = lista.getSelectedIndex();
+            return new ListaTransferable(origenIndex, index, lista.getSelectedValue());
+        }
+
+        @Override
+        protected void exportDone(JComponent source, Transferable data, int action) {
+            if (action == TransferHandler.MOVE) {
+                ListaTransferable transferable = (ListaTransferable) data;
+                modelosDeListas[origenIndex].remove(transferable.getIndiceOrigen());
+            }
+        }
+
+        @Override
+        public boolean canImport(TransferSupport support) {
+            return support.isDataFlavorSupported(ListaTransferable.LISTA_FLAVOR);
+        }
+
+        @Override
+        public boolean importData(TransferSupport support) {
+            if (!canImport(support)) {
+                return false;
+            }
+
+            try {
+                ListaTransferable transferable = (ListaTransferable) support.getTransferable().getTransferData(ListaTransferable.LISTA_FLAVOR);
+                JList.DropLocation dropLocation = (JList.DropLocation) support.getDropLocation();
+                int destinoIndex = dropLocation.getIndex();
+                String tarea = transferable.getTarea();
+
+                if (destinoIndex == -1) {
+                    destinoIndex = modelosDeListas[origenIndex].size();
+                }
+
+                modelosDeListas[origenIndex].remove(transferable.getIndiceOrigen());
+                modelosDeListas[destinoIndex].add(destinoIndex, tarea);
+                return true;
+            } catch (UnsupportedFlavorException | IOException e) {
+                e.printStackTrace();
+                return false;
+            }
+        }
+    }
+
+    private static class ListaTransferable implements Transferable {
+        public static final DataFlavor LISTA_FLAVOR = new DataFlavor(ListaTransferable.class, "ListaTransferable");
+
+        private final int indiceOrigen;
+        private final int indiceDestino;
+        private final String tarea;
+
+        public ListaTransferable(int indiceOrigen, int indiceDestino, String tarea) {
+            this.indiceOrigen = indiceOrigen;
+            this.indiceDestino = indiceDestino;
+            this.tarea = tarea;
+        }
+
+        public int getIndiceOrigen() {
+            return indiceOrigen;
+        }
+
+        public int getIndiceDestino() {
+            return indiceDestino;
+        }
+
+        public String getTarea() {
+            return tarea;
+        }
+
+        @Override
+        public DataFlavor[] getTransferDataFlavors() {
+            return new DataFlavor[]{LISTA_FLAVOR};
+        }
+
+        @Override
+        public boolean isDataFlavorSupported(DataFlavor flavor) {
+            return flavor.equals(LISTA_FLAVOR);
+        }
+
+        @Override
+        public Object getTransferData(DataFlavor flavor) {
+            if (flavor.equals(LISTA_FLAVOR)) {
+                return this;
+            } else {
+                return null;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new OrganizadorTareasApp().setVisible(true);
+            }
+        });
+    }
+}

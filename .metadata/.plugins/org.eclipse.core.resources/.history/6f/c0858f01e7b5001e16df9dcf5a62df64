@@ -1,0 +1,26 @@
+import javax.swing.*;
+
+public class OrganizadorTareasFrame extends JFrame {
+    private OrganizadorTareasPanel organizadorTareasPanel;
+
+    public OrganizadorTareasFrame() {
+        setTitle("Organizador de Tareas");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(600, 400);
+
+        organizadorTareasPanel = new OrganizadorTareasPanel();
+        add(organizadorTareasPanel);
+    }
+
+    /**
+     * @wbp.parser.entryPoint
+     */
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new OrganizadorTareasFrame().setVisible(true);
+            }
+        });
+    }
+}

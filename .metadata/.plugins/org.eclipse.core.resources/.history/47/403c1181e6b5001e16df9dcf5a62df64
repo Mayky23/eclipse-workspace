@@ -1,0 +1,46 @@
+package OrganizadorTareas;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class OrganizadorTareasPanel extends JPanel {
+    private JComboBox<String> categoriasComboBox;
+    private DefaultListModel<String>[] modelosDeListas;
+    private JList<String>[] listas;
+    private JTextField nuevaTareaTextField;
+
+    public OrganizadorTareasPanel() {
+        setLayout(new BorderLayout());
+        inicializarComponentes();
+    }
+
+    private void inicializarComponentes() {
+        // ... (Código del método inicializarComponentes, similar al proporcionado anteriormente)
+    }
+
+    private void cambiarCategoria() {
+        // ... (Código del método cambiarCategoria)
+    }
+
+    private void cargarTareasDePrueba() {
+        // ... (Código del método cargarTareasDePrueba)
+    }
+
+    private void agregarTarea() {
+        // ... (Código del método agregarTarea)
+    }
+
+    private String obtenerTituloLista(int indice) {
+        // ... (Código del método obtenerTituloLista)
+    }
+
+    private class ListaTransferHandler extends TransferHandler {
+        // ... (Código de la clase interna ListaTransferHandler)
+    }
+
+    private static class ListaTransferable implements Transferable {
+        // ... (Código de la clase interna ListaTransferable)
+    }
+}
