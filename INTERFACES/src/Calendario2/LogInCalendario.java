@@ -99,7 +99,8 @@ public class LogInCalendario extends JFrame {
         
         JButton btn_fecha = new JButton("FECHA");
         btn_fecha.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
+            @SuppressWarnings("deprecation")
+			public void actionPerformed(ActionEvent e) {
                 try {
                     File file = new File(getClass().getClassLoader().getResource("CALENDARIO.jar").getFile());
                     if (file.exists()) {

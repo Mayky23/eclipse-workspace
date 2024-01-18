@@ -29,13 +29,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="MongoDBapi.MongoDBapi"/>
 		</list>
 		<list key="groupId">
-			<item value="MongoDBapi"/>
 		</list>
 		<list key="artifactId">
-			<item value="MongoDBapi"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
