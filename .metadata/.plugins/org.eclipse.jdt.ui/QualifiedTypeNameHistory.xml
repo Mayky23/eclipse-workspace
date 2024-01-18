@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.lang.model.element.Element"/>
     <fullyQualifiedTypeName name="javax.swing.text.Element"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.parser.Element"/>
     <fullyQualifiedTypeName name="org.w3c.dom.Element"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.awt.event.MouseAdapter"/>
     <fullyQualifiedTypeName name="java.awt.event.MouseEvent"/>
+    <fullyQualifiedTypeName name="javax.swing.JComponent"/>
 </qualifiedTypeNameHistroy>
