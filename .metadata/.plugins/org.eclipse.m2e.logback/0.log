@@ -2202,3 +2202,8 @@ org.eclipse.core.runtime.CoreException: Launch configuration CitasMedicasApplica
 2024-01-18 10:36:54,578 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory M:\eclipse-workspace\MongoDBapi\src\main\resources
 2024-01-18 10:36:54,582 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory M:\eclipse-workspace\MongoDBapi\src\test\resources
 2024-01-18 11:20:53,789 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-18 14:50:12,478 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-18 14:50:18,449 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MongoDBapi:MongoDBapi:0.0.1-SNAPSHOT @ C:\Users\AlumnoT\eclipse-workspace\MongoDBapi\pom.xml.
+2024-01-18 14:50:18,869 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\AlumnoT\eclipse-workspace\MongoDBapi\src\main\resources
+2024-01-18 14:50:18,875 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\AlumnoT\eclipse-workspace\MongoDBapi\src\test\resources
+2024-01-18 14:50:19,757 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MongoDBapi:MongoDBapi:0.0.1-SNAPSHOT @ C:\Users\AlumnoT\eclipse-workspace\MongoDBapi\pom.xml.
