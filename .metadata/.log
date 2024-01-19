@@ -380,3 +380,1623 @@ java.io.IOException: Failed to read index data from file:/M:/eclipse-workspace/.
 	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:509)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 Caused by: java.lang.OutOfMemoryError: Java heap space
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-01-19 08:22:59.678
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.IOException: Failed to read index data from file:/M:/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index at offset 1847440 and size 1852122177
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:686)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategory(DiskIndex.java:486)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategories(DiskIndex.java:478)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:580)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:228)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:99)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1245)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1221)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:837)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:509)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.680
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.680
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.681
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.681
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.681
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.682
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.682
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.682
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.682
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.682
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.682
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.683
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.683
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.683
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.683
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.684
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.684
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.684
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.684
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.684
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.685
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.685
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.685
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.685
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.686
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.686
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.686
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.686
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.686
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.687
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.687
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.687
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.687
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.687
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.688
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.688
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.688
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.688
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.688
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.689
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.689
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.689
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.689
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.689
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.690
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.690
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.690
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.690
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.691
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.691
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.691
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.692
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.692
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.692
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.692
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.692
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.693
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.693
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.693
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.693
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.693
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.694
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.694
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.694
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.694
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.695
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.695
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.695
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.695
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.696
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.696
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.696
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.696
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.697
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.697
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.697
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.698
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.698
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.698
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.698
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.698
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.699
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.699
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.699
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.699
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.699
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.700
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.700
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.700
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.700
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.701
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.701
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.701
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.701
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.702
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.702
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.702
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.702
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.702
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.703
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.703
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.703
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.704
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.704
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.704
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.704
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.705
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.705
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.705
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.705
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.706
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.706
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.pde.internal.ui.util.SharedLabelProvider.createImage(SharedLabelProvider.java:120)
+	at org.eclipse.pde.internal.ui.util.SharedLabelProvider.get(SharedLabelProvider.java:96)
+	at org.eclipse.pde.internal.ui.util.SharedLabelProvider.get(SharedLabelProvider.java:85)
+	at org.eclipse.pde.internal.ui.correction.java.SearchRepositoriesForIUProposal.getImage(SearchRepositoriesForIUProposal.java:83)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.createCompletionProposalLink(AbstractAnnotationHover.java:492)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.createCompletionProposalsList(AbstractAnnotationHover.java:396)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.createCompletionProposalsControl(AbstractAnnotationHover.java:377)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.deferredCreateContent(AbstractAnnotationHover.java:306)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:190)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1151)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.presentInformation(AbstractHoverInformationControlManager.java:884)
+	at org.eclipse.jface.text.TextViewerHoverManager.doPresentInformation(TextViewerHoverManager.java:237)
+	at org.eclipse.jface.text.TextViewerHoverManager.lambda$3(TextViewerHoverManager.java:227)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.706
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.706
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.707
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.707
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.707
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.707
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.708
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.708
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.708
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.708
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.708
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.708
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.709
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:280)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.709
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:483)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:274)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-01-19 08:22:59.709
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:300)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wb.swt.ResourceManager.getImage(ResourceManager.java:94)
+	at com.jaspersoft.studio.wizards.category.ReportTemplatesWizardPage.templateImagesPreCache(ReportTemplatesWizardPage.java:267)
+	at com.jaspersoft.studio.JaspersoftStudioPlugin$1.run(JaspersoftStudioPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
