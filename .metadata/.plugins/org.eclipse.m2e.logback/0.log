@@ -2216,3 +2216,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration CitasMedicasApplica
 2024-01-23 18:19:52,133 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\AlumnoT\eclipse-workspace\MongoDBapi\src\test\resources
 2024-01-23 18:19:53,226 [Worker-27: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MongoDB:MongoDB:0.0.1-SNAPSHOT @ C:\Users\AlumnoT\eclipse-workspace\MongoDB\pom.xml.
 2024-01-24 20:28:33,005 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-01-25 19:00:22,910 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
