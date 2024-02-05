@@ -16,7 +16,6 @@ INDEX VERSION 1.134+C:\Users\AlumnoT\eclipse-workspace\.metadata\.plugins\org.ec
 1865797976.index
 215351697.index
 1936940580.index
-1953149152.index
 622548355.index
 1283902935.index
 3618055696.index
