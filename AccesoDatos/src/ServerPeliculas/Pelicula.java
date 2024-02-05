@@ -3,7 +3,9 @@ package ServerPeliculas;
 import java.io.Serializable;
 
 public class Pelicula implements Serializable {
-    private String nombre;
+
+	private static final long serialVersionUID = 1L;
+	private String nombre;
     private int anio;
     private int duracion;
     private int nota;
