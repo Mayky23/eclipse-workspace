@@ -76,6 +76,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\AlumnoT\eclipse-workspace\movies"/>
 			<item value="C:\Users\AlumnoT\MongoSocket"/>
 			<item value="C:\Users\AlumnoT\Desktop\MVC_AOM_MR"/>
 			<item value="C:\Users\AlumnoT\Desktop\Cine\Cine"/>
